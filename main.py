@@ -25,9 +25,9 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title="ToDo лист API",
     description="API для управления задачами с использованием матрицы Эйзенхауэра",
-    version="2.1.0",
+    version="3.1.0",
     contact={
-        "name": "Чистяков",
+        "name": "Грошев Роман",
     },
     lifespan=lifespan # Подключаем lifespan
 )
